@@ -1,13 +1,21 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+
 <!DOCTYPE html>
+
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>Insert title here</title>
-</head>
-<body>
-	<h1>loginForm</h1>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+		<title>LoginForm</title>
+	</head>
+	<body>
+		
+		<h1>LoginForm</h1>
+		
+		<div>
+			<!-- jspIndex 페이지로 이동 -->
+			<a href="./jspIndex.jsp">목차</a>
+		</div><br>
+		
 		<form action="./loginAction.jsp" method="post">
 			<table>
 				<tr>
@@ -21,5 +29,6 @@
 			</table>
 			<input type="submit" value="login">
 		</form>
-</body>
+		
+	</body>
 </html>
